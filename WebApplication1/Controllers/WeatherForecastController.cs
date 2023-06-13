@@ -29,5 +29,10 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+
+        public string GetName()
+        {
+            return "loki";
+        }
     }
 }
