@@ -6,43 +6,38 @@ namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class EmployeeController : ControllerBase
     {
-        // GET: api/<UserController>
+        // GET: api/<EmployeeController>
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "user1", "value2" };
+            return new string[] { "lokesh", "mahesh","Dinesh","Ganesh" };
         }
 
-        // GET api/<UserController>/5
+        // GET api/<EmployeeController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/<UserController>
+        // POST api/<EmployeeController>
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/<UserController>/5
+        // PUT api/<EmployeeController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/<UserController>/5
+        // DELETE api/<EmployeeController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
-
-        public string GetName()
-        {
-            return "loki";
         }
     }
 }
