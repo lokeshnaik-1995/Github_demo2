@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "lokesh", "mahesh" };
+            return new string[] { "lokesh", "mahesh","Dinesh" };
         }
 
         // GET api/<EmployeeController>/5
