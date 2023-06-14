@@ -44,5 +44,9 @@ namespace WebApplication1.Controllers
         {
             return "loki";
         }
+        public int Getint2()
+        {
+            return 2;
+        }
     }
 }
