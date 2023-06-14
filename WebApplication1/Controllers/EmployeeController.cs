@@ -39,5 +39,10 @@ namespace WebApplication1.Controllers
         public void Delete(int id)
         {
         }
+
+        public int GetInt()
+        {
+            return 1;
+        }
     }
 }
